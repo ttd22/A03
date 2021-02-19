@@ -42,11 +42,11 @@ Spring 2021 IS117 Assignment 3 for Section 2
 
 4. Add & commit: To propose changes, use [git add <filename>]. To actually commit these changes, use [git commit -m "Commit message"]
 
-5. Pushing changes: To send changes to your remote repository, execute [git push origin master]. Change master to whatever branch you want to push your changes to. If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with [git remote add origin <server>].
+5. Pushing changes: To send changes to your remote repository, execute [git push origin master]. If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with [git remote add origin <server>].
 
 6. Branch: Create a new branch named "feature_x" and switch to it using [git checkout -b feature_x]. Switch back to master [git checkout master]. And delete the branch again [git branch -d feature_x]. A branch is not available to others unless you push the branch to your remote repository [git push origin <branch>]
 
-7. Update & merge: To update your local repository to the newest commit, execute [git pull]. To merge another branch into your active branch, use [git merge <branch>]. You also need to mark them as merged with [git add <filename>]. Before merging changes, you can also preview them by using [git diff <source_branch> <target_branch>]
+7. Update & merge: To update your local repository, execute [git pull]. To merge another branch into your active branch, use [git merge <branch>]. You also need to mark them as merged with [git add <filename>]. 
 
 
 
