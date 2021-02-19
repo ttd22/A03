@@ -1,7 +1,7 @@
 # A03
 Spring 2021 IS117 Assignment 3 for Section 2
 
-PART 1: Directions on Using Webstorm/Github/Git.
+**PART 1: Directions on Using Webstorm/Github/Git.**
 
 **A - SETTING UP**
 1. Install Webstorm: Download from  https://www.jetbrains.com/student/
@@ -34,22 +34,23 @@ PART 1: Directions on Using Webstorm/Github/Git.
 12. Check your GitHub Pages: Copy the Github.io URL into a browser. Post the URL into Moodle with your Github account URL
 
 **C - GIT GUIDE**
-1. Create a new Repository: Create a new open it and perform a [git init] to create a new git repository.
+1. Create a new git Repository: Create a new directory, open it and perform a [git init].
 
-2. Checkout a repository: Create a working copy of a local repository by running the command [git clone /path/to/repository]. When using a remote server, your command will be [git clone username@host:/path/to/repository]
+2. Checkout a repository: Create a working copy of a local repository [git clone /path/to/repository]. When using a remote server, the command is [git clone username@host:/path/to/repository]
 
-3. Workflow: Your local repository consists of three "trees" maintained by git. The first one is your Working Directory which holds the actual files. The second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you've made.
+3. Workflow: The local repository consists of three "trees" maintained by git. The first one is Working Directory which holds the actual files. The second one is the Index which acts as a staging area and finally the HEAD which points to the last commit you've made.
 
-4. Add & commit: You can propose changes using [git add <filename>]. [git add *] This is the first step in the basic git workflow. To actually commit these changes, use [git commit -m "Commit message"]
+4. Add & commit: To propose changes, use [git add <filename>]. To actually commit these changes, use [git commit -m "Commit message"]
 
-5. Pushing changes: Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, execute [git push origin master]. Change master to whatever branch you want to push your changes to. If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with [git remote add origin <server>].
+5. Pushing changes: To send changes to your remote repository, execute [git push origin master]. Change master to whatever branch you want to push your changes to. If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with [git remote add origin <server>].
 
 6. Branch: Create a new branch named "feature_x" and switch to it using [git checkout -b feature_x]. Switch back to master [git checkout master]. And delete the branch again [git branch -d feature_x]. A branch is not available to others unless you push the branch to your remote repository [git push origin <branch>]
 
 7. Update & merge: To update your local repository to the newest commit, execute [git pull]. To merge another branch into your active branch, use [git merge <branch>]. You also need to mark them as merged with [git add <filename>]. Before merging changes, you can also preview them by using [git diff <source_branch> <target_branch>]
 
 
-PART 2: Glossary to include these terms in a bulleted list.
+
+**PART 2: Glossary to include these terms in a bulleted list.**
 
 **Branch** - A set of development code that does not interfere with the production system.
 
@@ -76,7 +77,8 @@ PART 2: Glossary to include these terms in a bulleted list.
 **Repository** - It contains project files and stores each file's revision history, and it can have multiple collaborators and can be either public or private.
 
 
-References
-Hendela, Arthur. “Introduction to Github and Webstorm” Introduction to Website Development, New Jersey Institute of Technology. Lecture. 
-Dudler, Roger. “git - the simple guide”. https://rogerdudler.github.io/git-guide/.
-“Github glossary”. _Github Docs_, https://docs.github.com/en/github/getting-started-with-github/github-glossary.
+
+**References:**
+1. Hendela, Arthur. “Introduction to Github and Webstorm” Introduction to Website Development, New Jersey Institute of Technology. Lecture. 
+2. Dudler, Roger. “git - the simple guide”. https://rogerdudler.github.io/git-guide/.
+3. “Github glossary”. _Github Docs_, https://docs.github.com/en/github/getting-started-with-github/github-glossary.
